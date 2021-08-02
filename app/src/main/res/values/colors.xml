@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="lavanda">#E6E6FA</color>
+    <color name="rosa">#FFE4E1</color>
+    <color name="polvoazul">#B0E0E6</color>
+    <color name="azulclaro">#87CEFA</color>
+    <color name="ciruela">#DDA0DD</color>
+    <color name="dorado">#FFD700</color>
+    <color name="verdeamarillo">#9ACD32</color>
+    <color name="verdemar">	#20B2AA</color>
+    <color name="naranja">#FFA500</color>
+    <color name="azulacero">#4682B4</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="grisaceituna">#6B8E23</color>
+    <color name="rojooscuro">#8B0000</color>
+    <color name="granate">#800000</color>
+    <color name="azulpastel1">#ABDEE6</color>
+    <color name="moradopastel1">#CBAACB</color>
+    <color name="amarillopastel1">#FFFFB5</color>
+    <color name="salmonpastel1">#FFCCB6</color>
+    <color name="rosapastel1">#F3B0C3</color>
+    <color name="azulpastel2">#C6DBDA</color>
+    <color name="rosapastel2">#FEE1EB</color>
+    <color name="salmonpastel2">#FED7C3</color>
+    <color name="amarillopastel2">#F6EAC2</color>
+    <color name="moradopastel2">#ECD5E3</color>
+    <color name="salmonpastel3">#FF968A</color>
+    <color name="rosapastel3">#FFAEA5</color>
+    <color name="rosapastel4">#FFC5BF</color>
+    <color name="salmonpastel4">#FFD8BE</color>
+    <color name="salmonpastel5">#FFC8A2</color>
+    <color name="azulpastel3">#D4F0F0</color>
+    <color name="azulpastel4">#8FCACA</color>
+    <color name="verdepastel1">#CCE2CB</color>
+    <color name="verdepastel2">#B6CFB6</color>
+    <color name="verdepastel3">#97C1A9</color>
+    <color name="salmonpastel6">#FCB9AA</color>
+    <color name="rosapastel5">#FFDBCC</color>
+    <color name="grispastel1">#ECEAE4</color>
+    <color name="azulpastel5">#A2E1DB</color>
+    <color name="azulpastel6">#55CBCD</color>
+
+
+</resources>
