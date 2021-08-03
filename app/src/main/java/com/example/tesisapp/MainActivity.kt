@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         }
         btnreg.setOnClickListener{
-            val regIntent: Intent = Intent(this,Registro::class.java)
+            val regIntent: Intent = Intent(this,Home::class.java)
             startActivity(regIntent)
         }
 

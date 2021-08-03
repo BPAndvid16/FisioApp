@@ -1,7 +1,21 @@
 <resources>
+
+    <!-- Strings Autenticacion -->
+
     <string name="app_name">TesisApp</string>
     <string name="login">Autenticación</string>
     <string name="usuario">Usuario</string>
     <string name="clave">Contraseña</string>
     <string name="registrar">Registrarse</string>
+
+    <!-- Strings Principal -->
+
+    <string name="videos">Videos</string>
+    <string name="terapia">Fisioterapia</string>
+    <string name="chat">Chat</string>
+    <string name="avance">Registro de avance</string>
+
+
+
+
 </resources>
