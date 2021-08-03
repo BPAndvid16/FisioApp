@@ -1,5 +1,7 @@
 package com.example.tesisapp
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -18,7 +20,12 @@ class login : AppCompatActivity() {
         usuario = findViewById(R.id.txtlogusuario)
         clave = findViewById(R.id.txtlogclave)
         btnlog = findViewById(R.id.btnlog)
+        btnlog.setOnClickListener {
+            val us = usuario.text.toString()
+            val cl = clave.text.toString()
 
+
+        }
 
 
 
@@ -27,3 +34,4 @@ class login : AppCompatActivity() {
     }
 
 }
+

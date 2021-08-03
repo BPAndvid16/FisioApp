@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "10911095989",
+    "project_id": "fisioapp-9db45",
+    "storage_bucket": "fisioapp-9db45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10911095989:android:c7eb96e9040320f2ea72fc",
+        "android_client_info": {
+          "package_name": "com.example.tesisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10911095989-ifbc1ul4v0ho3vt63cgbh3mvdns2jsrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjo_slrBi4FBn5nDhKYFeqlLi3WAx7Pr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10911095989-ifbc1ul4v0ho3vt63cgbh3mvdns2jsrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
