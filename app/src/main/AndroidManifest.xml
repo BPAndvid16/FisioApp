@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Chat"
+            android:exported="true" />
+        <activity
+            android:name=".Terapias"
+            android:exported="true" />
+        <activity
+            android:name=".Galeria"
+            android:exported="true" />
+        <activity
             android:name=".Home"
             android:exported="true" />
         <activity

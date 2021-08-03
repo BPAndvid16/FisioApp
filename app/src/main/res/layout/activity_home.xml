@@ -15,7 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView5"
@@ -28,14 +28,15 @@
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/imgvideo"
+                android:id="@+id/btnvideo"
                 android:layout_width="160dp"
                 android:layout_height="156dp"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/videos"
+                android:contentDescription="@string/videos"
 
-                />
+                app:srcCompat="@drawable/videos"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
             <TextView
                 android:id="@+id/textView"
@@ -47,11 +48,12 @@
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/imgterapia"
+                android:id="@+id/btnterapia"
                 android:layout_width="160dp"
                 android:layout_height="156dp"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/white"
+                android:contentDescription="@string/avance"
                 app:srcCompat="@drawable/terapia" />
 
             <TextView
@@ -64,14 +66,14 @@
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/imgchat"
+                android:id="@+id/btnchat"
                 android:layout_width="160dp"
                 android:layout_height="156dp"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/chat"
+                android:contentDescription="@string/chat"
 
-                />
+                app:srcCompat="@drawable/chat" />
 
             <TextView
                 android:id="@+id/textView3"
