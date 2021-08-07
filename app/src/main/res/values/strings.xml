@@ -15,5 +15,11 @@
     <string name="chat">Chat</string>
     <string name="avance">Registro de avance</string>
 
+    <string name="galeria">Galeria</string>
+
+    <string name="subir">Subir Video</string>
+
+
+
 
 </resources>
