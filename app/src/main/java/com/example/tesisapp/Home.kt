@@ -33,7 +33,7 @@ class Home : AppCompatActivity() {
         }
 
         btnChat.setOnClickListener {
-            val chatIntent: Intent = Intent(this,Chat::class.java)
+            val chatIntent: Intent = Intent(this,Contacto::class.java)
             startActivity(chatIntent)
         }
 

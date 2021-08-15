@@ -30,10 +30,11 @@
     <string name="ej9">Ejemplo #9</string>
     <string name="ej10">Ejemplo #10</string>
 
-
-
-
-
+    <string name="nombre">Nombre</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="contacto">Contacto</string>
+    <string name="enviar">Enviar</string>
 
 
 </resources>
