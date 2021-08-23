@@ -1,5 +1,7 @@
 package com.example.tesisapp
 
+import android.animation.ObjectAnimator
+import android.annotation.SuppressLint
 import android.content.Context
 import android.icu.util.TimeUnit.values
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +18,7 @@ import android.hardware.SensorEvent
 
 import android.hardware.SensorManager
 import android.view.View
+import android.widget.ProgressBar
 import android.widget.Toast
 
 
@@ -23,9 +26,12 @@ import android.widget.Toast
 
 open class Terapias : AppCompatActivity(), SensorEventListener{
 
+
+
     //Views
 
     private var tvGyro: ArrayList<TextView> = ArrayList();
+    private lateinit var progreso: TextView
 
     //Buttons
 
@@ -71,14 +77,22 @@ open class Terapias : AppCompatActivity(), SensorEventListener{
 
     }
 
+    @SuppressLint("ObjectAnimatorBinding")
     private fun initViews(){
         for (i in idGyro){
             tvGyro.add(findViewById(i))
         }
 
+
+
         btnStart = findViewById(R.id.btnStart)
         btnStop = findViewById(R.id.btnStop)
         btnReset = findViewById(R.id.btnReset)
+        progreso = findViewById(R.id.txtProgreso)
+
+
+
+
 
         btnStart.setOnClickListener{
             registerListener()
@@ -160,7 +174,10 @@ open class Terapias : AppCompatActivity(), SensorEventListener{
         tvGyro[0].text = "x1: ${"%.2f".format(gyroData!!.x1*(180.0/Math.PI))} grados \t\t gyroX: ${"%.2f".format(gyroX*(180.0/Math.PI))} grados"
         tvGyro[1].text = "x1: ${"%.2f".format(gyroData!!.x2*(180.0/Math.PI))} grados \t\t gyroY: ${"%.2f".format(gyroY*(180.0/Math.PI))} grados"
         tvGyro[2].text = "x1: ${"%.2f".format(gyroData!!.x3*(180.0/Math.PI))} grados \t\t gyroZ: ${"%.2f".format(gyroZ*(180.0/Math.PI))} grados"
+        progreso.text = "${"%.2f".format(gyroX*(180.0/Math.PI))} grados"
         timeGyro = System.currentTimeMillis()
+
+
     }
 
 }
