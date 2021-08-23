@@ -36,5 +36,11 @@
     <string name="contacto">Contacto</string>
     <string name="enviar">Enviar</string>
 
+    <string name="Iniciar">Iniciar</string>
+    <string name="Reiniciar">Reiniciar Contadores</string>
+    <string name="Parar">Parar</string>
+
+
+
 
 </resources>
